@@ -15,6 +15,9 @@
                 <input type="password" name="password" placeholder="Password">
             </div>
             <div>
+                <input type="number" name="age" placeholder="age">
+            </div>
+            <div>
                 <button>
                     Submit
                 </button>
