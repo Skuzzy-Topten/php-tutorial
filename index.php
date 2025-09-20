@@ -25,6 +25,10 @@
                 <input type="radio" name="gender" value="female"> Female
             </div>
             <div>
+                <input type="checkbox" name="occupation[]" value="web-developer"> Web Developer
+                <input type="checkbox" name="occupation[]" value="web-designer"> Web Designer
+            </div>
+            <div>
                 <button>
                     Submit
                 </button>

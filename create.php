@@ -7,8 +7,9 @@
     $age = $_POST['age'];
     $message = $_POST['message'];
     $gender = $_POST['gender'];
+    $occupation = implode(",", $_POST['occupation']);
 
-    $data_create = mysqli_query($conn, "INSERT INTO users (name, password, age, message, gender) VALUES('$name', '$hashPassword', '$age', '$message', '$gender')") or die(mysqli_connect_error());
+    $data_create = mysqli_query($conn, "INSERT INTO users (name, password, age, message, gender, occupation) VALUES('$name', '$hashPassword', '$age', '$message', '$gender', '$occupation')") or die(mysqli_connect_error());
 
     if($data_create) {
         echo "data is created";
