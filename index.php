@@ -18,6 +18,9 @@
                 <input type="number" name="age" placeholder="age">
             </div>
             <div>
+                <textarea name="message" placeholder="message"></textarea>
+            </div>
+            <div>
                 <button>
                     Submit
                 </button>
