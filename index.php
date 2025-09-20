@@ -21,6 +21,10 @@
                 <textarea name="message" placeholder="message"></textarea>
             </div>
             <div>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+            <div>
                 <button>
                     Submit
                 </button>
