@@ -8,10 +8,17 @@
 <body>
     <main>
         <form action="/create.php" method="post">
-            <input type="text" name="name" placeholder="Name">
-            <button>
-                Submit
-            </button>
+            <div>
+                <input type="text" name="name" placeholder="Name">
+            </div>
+            <div>
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <div>
+                <button>
+                    Submit
+                </button>
+            </div>
         </form>
     </main>
 </body>
