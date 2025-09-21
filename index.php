@@ -32,6 +32,9 @@
                 <input type="time" name="created_at_time">
             </div>
             <div>
+                <input type="date" name="created_at_date">
+            </div>
+            <div>
                 <button>
                     Submit
                 </button>
