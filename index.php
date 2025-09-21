@@ -29,6 +29,9 @@
                 <input type="checkbox" name="occupation[]" value="web-designer"> Web Designer
             </div>
             <div>
+                <input type="time" name="created_at_time">
+            </div>
+            <div>
                 <button>
                     Submit
                 </button>
